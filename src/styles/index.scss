@@ -1,13 +1,47 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+#stick {
+    background-color: rgb(29, 29, 29);
+    width: 15px;
+    height: 60px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: red;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    margin-top: -100px;
+    background-color: rgb(29, 29, 29);
+    height: 160px;
+    width: 60px;
+    border-radius: 5%;
+}
 
-*/
+#red {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#yellow {
+   margin-left: 5px;
+    background-color: rgba(255, 255, 0, 0.801);
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+#green {
+    margin-left: 5px;
+    background-color: rgba(0, 128, 0, 0.801);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.selected {
+    box-shadow: 0px 0px 50px 5px yellow;
+}
